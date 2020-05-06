@@ -25,15 +25,15 @@ Following client applications are taken into account for this compatibility stat
 | Deliverable | Package Name |Repository URL |
 | :-: | :-: | :-: |
 | **Wallets** | | |
-| Desktop Wallet | nem2-desktop-wallet | [nem2-wallet][wallet-desktop] |
+| Desktop Wallet | symbol-desktop-wallet | [symbol-wallet][wallet-desktop] |
 | Mobile Wallet (RFP) | nem2-wallet-mobile | [nem-catapult-wallet][wallet-rfp] |
 | Hardware Wallets Integrations | nem2-wallet-hardware | N/A |
 | **Explorers** | | |
-| Node/Block Explorer | nem2-explorer | [nem2-explorer][explorer] |
+| Node/Block Explorer | symbol-explorer | [symbol-explorer][explorer] |
 | **Faucet** | | |
-| Catapult Faucet | nem2-faucet | [nem2-faucet][faucet] |
+| Symbol Faucet | symbol-faucet | [symbol-faucet][faucet] |
 | **Command Line** | | |
-| NEM2 CLI | nem2-cli | [nem2-cli][cli] |
+| Symbol CLI | nem2-cli | [symbol-cli][cli] |
 
 ## Features Compatibilities
 
@@ -51,13 +51,12 @@ Following table describes the status attributions for each of the icons that wil
 
 Wallet packages are being worked on mostly by foundation teams. Following packages are target of the Stories table:
 
-- [nem2-desktop-wallet][wallet-desktop]: **Wallet Desktop Build**, installable on major OSs.
-- [nem-catapult-wallet][wallet-rfp] (RFP): **Outsourced** to Hatio.
-- [nem2-cli][cli]
+- [symbol-desktop-wallet][wallet-desktop]: **Wallet Desktop Build**, installable on major OSs.
+- [symbol-cli][cli]
 
 #### Stories
 
-| User Story | [Command Line][cli] | [Desktop Wallet][wallet-desktop] | [Mobile Wallet][wallet-rfp] | [Hardware Wallet][wallet-hardware] |
+| User Story | [Command Line][cli] | [Desktop Wallet][wallet-desktop] | [Mobile Wallet] | [Hardware Wallet][wallet-hardware] |
 | :-: | :-: | :-: | :-: | :-: |
 | **Accounts** | | | | |
 | User can create new account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
@@ -135,7 +134,7 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 The Explorer project is being worked on by a team in the foundation. The source code for this Software Package can be found at:
 
 - [dev-block-explorer][explorer-mijin]
-- [nem2-explorer][explorer]
+- [symbol-explorer][explorer]
 
 #### Stories
 
@@ -190,9 +189,9 @@ The Explorer project is being worked on by a team in the foundation. The source 
 
 ### Faucet
 
-The Faucet project was released by a community member. The source code for this Software Package can be found at:
+The Faucet project was released by a community member and other members of the project/community have been contributing. The source code for this Software Package can be found at:
 
-- [nem2-faucet][faucet]
+- [symbol-faucet][faucet]
 
 #### Stories
 
@@ -215,11 +214,10 @@ The Faucet project was released by a community member. The source code for this 
 | Jul 14 2019   | Initial Draft   |
 | Sep 12 2019   | Second Update   |
 
-[wallet-desktop]: https://github.com/nemfoundation/nem2-desktop-wallet
-[wallet-mobile]: https://github.com/NemTechCN/nem2-mwallet-CN
-[wallet-rfp]: https://github.com/hatioin/nem-catapult-wallet.git
+[wallet-desktop]: https://github.com/nemfoundation/symbol-desktop-wallet
+[wallet-mobile]: #
 [wallet-hardware]: #
-[explorer]: https://github.com/nemfoundation/nem2-explorer
+[explorer]: https://github.com/nemfoundation/symbol-explorer
 [explorer-mijin]: https://github.com/nemtech/dev-block-explorer
-[faucet]: https://github.com/nemfoundation/nem2-faucet
-[cli]: https://github.com/nemtech/nem2-cli
+[faucet]: https://github.com/nemfoundation/symbol-faucet
+[cli]: https://github.com/nemtech/symbol-cli
