@@ -92,11 +92,12 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 | | | | | | | |
 | **Usability** | | | | | | |
 | User can read QR Code | :heavy_minus_sign: | :stop_sign: | :white_check_mark: | :stop_sign: |
-| User can export Account with QR Code | :heavy_minus_sign:| :white_check_mark: | :white_check_mark: | :stop_sign: |
-| User can export Transaction with QR Code (Invoices) | :heavy_minus_sign: | :white_check_mark: | :white_check_mark: | :stop_sign: |
+| User can display/export Account with QR Code | :stop_sign:| :white_check_mark: | :white_check_mark: | :stop_sign: |
+| User can display/export Transaction with QR Code (Invoices) | :stop_sign: | :white_check_mark: | :white_check_mark: | :stop_sign: |
 | User can switch _language_  | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can use aliases for Mosaics | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: |
 | User can use aliases for Accounts | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: |
+| User can generate offline transactions | :stop_sign: | :stop_sign: | :heavy_minus_sign: | :stop_sign: |
 | | | | | | | |
 | **Transactions** | | | | | | |
 | _User can issue Transaction URI*_ | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
