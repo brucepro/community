@@ -28,4 +28,5 @@ TODO: add links and details for these
   2. Find some aspect of the project to help on
   3. Opening a pull request
 
-[Project Governance]:/governance/README.md.md
+
+[Project Governance]:/governance/README.md
